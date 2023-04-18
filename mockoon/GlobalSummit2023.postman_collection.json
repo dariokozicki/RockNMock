@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "78c14b9e-c958-4adb-9934-27de71641045",
+		"name": "GlobalSummit2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20082394"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "mutation",
+					"item": [
+						{
+							"name": "CRUD users",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3003/crud/users",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"crud",
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CRUD users",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n      \"id\": \"78311232-ecad-4c67-81da-47bfaec2af52\",\n      \"firstName\": \"Alberta\",\n      \"lastName\": \"Lesch\",\n      \"username\": \"Alberta_Lesch\",\n      \"birthday\": \"Mon Feb 23 1976 11:48:51 GMT-0300 (Argentina Standard Time)\",\n      \"company\": \"Wuckert Inc\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3003/crud/users",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"crud",
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CRUD users/id",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n        \"id\": \"78311232-ecad-4c67-81da-47bfaec2af52\",\n        \"firstName\": \"IChangedMyName!\",\n        \"lastName\": \"Lesch\",\n        \"username\": \"Alberta_Lesch\",\n        \"birthday\": \"Mon Feb 23 1976 11:48:51 GMT-0300 (Argentina Standard Time)\",\n        \"company\": \"Wuckert Inc\"\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3003/crud/users/78311232-ecad-4c67-81da-47bfaec2af52",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"crud",
+										"users",
+										"78311232-ecad-4c67-81da-47bfaec2af52"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CRUD users/id",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"lastName\": \"now I'm another value!\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3003/crud/users/78311232-ecad-4c67-81da-47bfaec2af52",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"crud",
+										"users",
+										"78311232-ecad-4c67-81da-47bfaec2af52"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CRUD /users/id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:3003/crud/users/78311232-ecad-4c67-81da-47bfaec2af52",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"crud",
+										"users",
+										"78311232-ecad-4c67-81da-47bfaec2af52"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET /users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3003/users",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "3",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE /users/id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3003/users/0",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"users",
+								"0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "animals",
+			"item": [
+				{
+					"name": "Animals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3003/animals",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"animals"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "3",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "files",
+			"item": [
+				{
+					"name": "POST /export/file",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3003/file/export",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"file",
+								"export"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

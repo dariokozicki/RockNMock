@@ -1,0 +1,350 @@
+{
+  "uuid": "cd6b8b2e-abbc-4c8d-8a91-28301ec94335",
+  "lastMigration": 27,
+  "name": "GlobalSummit",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3003,
+  "hostname": "",
+  "folders": [
+    {
+      "uuid": "aa8a016d-d122-45bd-9d16-f796d9ec73b5",
+      "name": "users",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "5f918772-eab5-40ff-95d5-ab02b803bc34"
+        },
+        {
+          "type": "route",
+          "uuid": "17ebaeb7-93a0-4cac-81ba-dfac661e5d99"
+        },
+        {
+          "type": "folder",
+          "uuid": "3503ab8e-4d73-4096-8543-61ea9ac8dd4c"
+        }
+      ]
+    },
+    {
+      "uuid": "beedd676-d922-4f84-a2fc-49311c9d5b3c",
+      "name": "animals",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "d7af0451-60f1-4fc4-bfed-77c013f5de9b"
+        }
+      ]
+    },
+    {
+      "uuid": "64c33a39-6bf5-4edd-9e16-4da18ee56013",
+      "name": "exports",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "e2cbfb7f-bdfb-4101-a093-633220854953"
+        }
+      ]
+    },
+    {
+      "uuid": "60a8dd00-a804-46ae-b533-0e1ae9c69e99",
+      "name": "api",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "folder",
+          "uuid": "aa8a016d-d122-45bd-9d16-f796d9ec73b5"
+        },
+        {
+          "type": "folder",
+          "uuid": "64c33a39-6bf5-4edd-9e16-4da18ee56013"
+        },
+        {
+          "type": "folder",
+          "uuid": "beedd676-d922-4f84-a2fc-49311c9d5b3c"
+        }
+      ]
+    },
+    {
+      "uuid": "3503ab8e-4d73-4096-8543-61ea9ac8dd4c",
+      "name": "mutation",
+      "collapsed": false,
+      "children": [
+        {
+          "type": "route",
+          "uuid": "df8a74ad-0ad4-4109-afe5-2ac46fc2598b"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "uuid": "5f918772-eab5-40ff-95d5-ab02b803bc34",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "users",
+      "responses": [
+        {
+          "uuid": "30f389be-fd62-4b30-88b5-605df5025339",
+          "body": "[\n    {\n        \"id\": \"0\",\n        \"firstName\": \"Hello\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"1\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"2\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"3\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"4\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"5\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"6\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"7\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"8\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    },\n    {\n        \"id\": \"9\",\n        \"firstName\": \"Maud\",\n        \"lastName\": \"Legros\",\n        \"username\": \"Maud_Legros\",\n        \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n        \"company\": \"Kon and Sons\"\n    }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Simple",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "580d4a42-523f-4b8e-b4c0-9ba51e2aab35",
+          "body": "[\n  {{#repeat 10}}\n    {\n      \"id\": \"{{@index}}\",\n      \"firstName\": \"Maud\",\n      \"lastName\": \"Legros\",\n      \"username\": \"Maud_Legros\",\n      \"birthday\": \"Mon Mar 04 1946 12:29:18 GMT-0400 (Argentina Standard Time)\",\n      \"company\": \"Kon and Sons\"\n    }\n  {{/repeat}}\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Repeating",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "2f794217-3b55-42bd-9d8f-3515d6ea4185",
+          "body": "[\n  {{#repeat (queryParam 'size' 10) }}\n    {{setVar 'name' (faker 'name.firstName')}}\n    {{setVar 'surname' (faker 'name.lastName')}}\n    {\n      \"id\": \"{{faker 'datatype.uuid'}}\",\n      \"firstName\": \"{{@name}}\",\n      \"lastName\": \"{{@surname}}\",\n      \"username\": \"{{faker 'internet.userName' @name @surname}}\",\n      \"birthday\": \"{{faker 'date.birthdate'}}\",\n      \"company\": \"{{faker 'company.companyName'}}\"\n    }\n  {{/repeat}}\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "More Complex + Query Param 'size'",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "e2cbfb7f-bdfb-4101-a093-633220854953",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "file/export",
+      "responses": [
+        {
+          "uuid": "80776b59-188f-4069-a5ac-095bf0b9d777",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "FILE",
+          "filePath": "./globalsummit.jpeg",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "d7af0451-60f1-4fc4-bfed-77c013f5de9b",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "animals",
+      "responses": [
+        {
+          "uuid": "5d9b7f93-c8e1-48a1-a7e5-5b7ff773c583",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Animals JSON from file",
+          "headers": [],
+          "bodyType": "FILE",
+          "filePath": "./animals_noparsing.json",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "ff74231c-80a9-4881-8798-55b8ce2942bb",
+          "body": "[\n  {{#repeat (queryParam 'size' 10)}}\n    {{setVar 'animalType' (faker 'animal.type')}}\n    {\n      \"id\": \"{{guid}}\",\n      \"type\": \"{{@animalType}}\",\n      \"species\": \"{{faker (concat 'animal.' @animalType)}}\"\n    }\n  {{/repeat}}\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Animals Complex",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "7afbe7bd-47f8-457f-9d0d-553f3b42507a",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Animals Complex from File",
+          "headers": [],
+          "bodyType": "FILE",
+          "filePath": "./animals_parsing.json",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "17ebaeb7-93a0-4cac-81ba-dfac661e5d99",
+      "type": "http",
+      "documentation": "",
+      "method": "delete",
+      "endpoint": "users/:id",
+      "responses": [
+        {
+          "uuid": "0736152d-7f96-48c5-94e1-ead8a50577b9",
+          "body": "{\n  \"id\": \"{{urlParam 'id'}}\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "df8a74ad-0ad4-4109-afe5-2ac46fc2598b",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "crud/users",
+      "responses": [
+        {
+          "uuid": "370318d7-0f7f-4faf-9d91-58856e59a36d",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "3o8f",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "folder",
+      "uuid": "60a8dd00-a804-46ae-b533-0e1ae9c69e99"
+    }
+  ],
+  "proxyMode": true,
+  "proxyHost": "https://google.com",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "952a38c3-f6ab-4242-ac25-47cb0eddb3aa",
+      "id": "3o8f",
+      "name": "users",
+      "documentation": "",
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "5b855e6f-3f3b-4e08-a1b4-c8c6a57af1e3",
+    "type": "dog",
+    "species": "French Bulldog"
+  },
+  {
+    "id": "496dca30-75fa-48e6-9220-c5e3e059c701",
+    "type": "bear",
+    "species": "Asian black bear"
+  },
+  {
+    "id": "3483b936-14dc-4c6b-93ec-3985dbe1e132",
+    "type": "cow",
+    "species": "Dexter cattle"
+  },
+  {
+    "id": "52f5d477-bbfb-4253-8edf-ba1c19c286f8",
+    "type": "bear",
+    "species": "American black bear"
+  },
+  {
+    "id": "5181c216-321c-4d66-801b-3b8084227903",
+    "type": "horse",
+    "species": "Knabstrupper"
+  },
+  {
+    "id": "4f9edc38-1546-4955-90aa-cd4f1386eea1",
+    "type": "dog",
+    "species": "Paisley Terrier"
+  },
+  {
+    "id": "79cad531-805c-49b9-a5c4-6dbc1a915c56",
+    "type": "dog",
+    "species": "Dogue de Bordeaux"
+  },
+  {
+    "id": "d1b73ba3-130b-4ff1-ad45-4d8554063f55",
+    "type": "lion",
+    "species": "Asiatic Lion"
+  },
+  {
+    "id": "66514921-b187-49c8-b97c-d7d2fd594d4c",
+    "type": "horse",
+    "species": "Miniature Horse"
+  },
+  {
+    "id": "0790a777-73c0-4b90-9988-dce08309a496",
+    "type": "fish",
+    "species": "Kawakawa"
+  }
+]

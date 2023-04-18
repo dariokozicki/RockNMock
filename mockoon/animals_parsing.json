@@ -1,0 +1,10 @@
+[
+  {{#repeat (queryParam 'size' 10)}}
+    {{setVar 'animalType' (faker 'animal.type')}}
+    {
+      "id": "{{guid}}",
+      "type": "{{@animalType}}",
+      "species": "{{faker (concat 'animal.' @animalType)}}"
+    }
+  {{/repeat}}
+]
